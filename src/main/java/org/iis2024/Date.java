@@ -22,6 +22,9 @@ public class Date {
   
   private int fielAddedByCollaborator;
 
+  public void methodAddedByOwner(){
+    System.out.println("Method added by the owner");
+  }
   /**
    * Retrieves the day component of this date.
    *
